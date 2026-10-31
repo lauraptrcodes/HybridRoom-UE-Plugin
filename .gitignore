@@ -1,0 +1,35 @@
+# --- Unreal Build Tool ---
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# --- Steam Audio SDK (wird separat heruntergeladen, siehe README) ---
+Source/ThirdParty/SteamAudio/*
+!Source/ThirdParty/SteamAudio/README.md
+
+# --- Tests / Python ---
+Extras/CoreTests/build/
+Extras/CoreTests/python/results/
+__pycache__/
+*.pyd
+*.so
+*.pyc
+
+# --- Bake-Caches ---
+*.hacbake
+*.hacbake.txt
+
+# --- Visual Studio / VS Code / Rider ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.opendb
+
+# --- System ---
+Thumbs.db
+.DS_Store

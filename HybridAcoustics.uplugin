@@ -1,0 +1,35 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "Modules": [
+    {
+      "Name": "HybridAcousticsCore",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "HybridAcoustics",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "HybridAcousticsCore",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "FriendlyName": "HybridAcoustics",
+  "Description": "",
+  "Category": "Other",
+  "CreatedBy": "laura peter",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": "true",
+  "Installed": false,
+  "IsBetaVersion": false,
+  "Plugins": [],
+  "SupportedTargetPlatforms": null
+}
